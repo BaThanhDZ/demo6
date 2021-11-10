@@ -1,0 +1,318 @@
+//ipad
+@media (min-width: 768px) and (max-width: 1024px) {
+ 	header {
+ 		.header-content h1 {
+ 			font-size: 120px;
+    		margin-top: 5rem;
+    		width:100%;
+ 		}
+ 		.more { right: 1rem !important;}
+ 	}
+ 	main {
+        margin-top: 1rem;
+ 		.section_components {
+ 			padding: 5rem 0 1rem;
+ 			.thumb { margin-top: 5rem;}
+ 		}
+ 		.section_elements {
+ 			margin-top: 0;
+ 			padding: 5rem 0 7rem;
+ 			.control-img .image { 
+ 				top: 4rem;
+ 				.image5, .image6 { top: 29rem;}
+ 			}
+ 		}
+ 		.section_cards .content { padding: 0;}
+ 		.section_content_areas {
+ 			margin-top: -17rem;
+ 			padding: 15rem 0 5rem;
+ 			.content { padding: 0;}
+ 			.control-img {
+ 				left: 0;
+ 				top: -5rem;
+ 				.image-scroll {
+ 					top: 9rem;
+ 					left: 6rem;
+ 				}
+ 			}
+ 		}
+ 		.section_contents {
+ 			padding-bottom: 5rem;
+ 			.detail { 
+ 				padding: 5rem 5rem 2rem;
+ 				.content { padding: 0;}
+ 			}
+ 			.image1_scroll-1 { top: -14rem;}
+ 			.image1_scroll-2 { top: 18rem;}
+ 			.image1_scroll-2 { bottom: 5rem;}
+ 		}
+ 		.section_example_pages {
+ 			margin: 0;
+ 			padding: 5rem 0;
+ 			.detail {
+ 				padding: 0 5rem 2rem;
+ 				.content { padding: 0;}
+ 			}
+ 		}
+ 		.section_description .control-img { z-index: -1;}
+ 		.section_image {
+            padding: 5rem 0;
+ 			.content p { margin-right: 0 !important;}
+ 		}
+        .section_slider {
+            .control-left, .control-right { display: none;}
+        }
+        .section_label {
+            padding: 2.5rem 0;
+            .control-label { padding: 0 5rem;}
+        }
+ 	}
+
+    nav .nav .nav-right { display: none;}
+    .nav-mobile-button { display: block;}
+}
+
+//tablet
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        .header-bot { padding-top: 10rem;}
+        .header-content h1 {
+            font-size: 5rem;
+            width: 100%;
+            margin: auto;
+        }
+        .more { display: none;}
+    }
+
+    nav .nav .nav-right { display: none;}
+    .nav-mobile-button { display: block;}
+    .nav-mobile { 
+        width: 45%;
+        .dropdown::after { right: 3rem !important;}
+    }
+
+    main {
+        margin-top: -5rem;
+        .section_components {
+            padding-top: 5rem;
+            .thumb {
+                margin-top: 5rem;
+                .control-img {
+                    margin-bottom: 1rem;
+                    perspective: none;
+                    .image {
+                        left:0;
+                        right: 0;
+                    }
+                }
+            }
+        }
+        .section_elements {
+            margin-top: 0;
+            padding: 5rem 0 10rem;
+            .control-img .image {
+                right: 0;
+                top: 5rem;
+                .image5, .image6 { top: 19rem;}
+                .image3 { top: 8rem;}
+            }
+        }
+        .section_cards {
+            padding: 0;
+            .content { padding: 0 2rem;}
+        }
+        .section_content_areas {
+            margin: 0;
+            padding: 5rem 0;
+            .control-img {
+                left: 1rem;
+                top: 15rem;
+                .image-scroll {
+                    top: 47rem;
+                    left: 6rem; 
+                }
+            }
+            .content { padding: 0 2rem;}
+        }
+        .section_contents {
+            .detail {
+                padding: 2rem 0 5rem;
+                .content { padding: 0 2rem;}
+            }
+            .menu {
+                .control-img { margin-bottom: 2rem;}
+                .image1_scroll-1, .image1_scroll-2, .image1_scroll-3 { width: 50%;}
+                .image1_scroll-1 {
+                    right: 2rem;
+                    top: 90rem;
+                }
+                .image1_scroll-2 {
+                    left: 2rem;
+                    top: 250rem;
+                }
+            }
+        }
+        .section_example_pages {
+            margin-top: 0;
+            .detail {
+                padding: 0 0 2rem;
+                .content { padding: 0 2rem;}
+            }
+            .col-md-4 { margin-bottom: 3rem;}
+        }
+        .section_description {
+            .content { 
+                padding: 0 2rem;
+                .control-cards { margin-bottom: 2rem;}
+            }
+            .control-img {
+                right: auto;
+                z-index: -1;
+            }
+        }
+        .section_custom_icons {
+            padding: 5rem 0;
+            .control-left, .control-right { display: none;}
+        }
+        .section_image {
+            padding-bottom: 5rem;
+            .content {
+                padding-bottom: 2.5rem;
+                p { margin-right: 0 !important;}
+            }
+            .control-img img { width: 100% !important;}
+        }
+        .section_slider .col-lg-2 { display: none;}
+        .section_label {
+            padding: 2rem 0;
+            .control-label { padding: 0 5rem;}
+        }
+    }
+
+    footer .footer {
+        ul li { margin-right: 3rem;}
+        .info {
+            text-align: center !important;
+            padding: 1rem 0;
+        }
+    }
+}
+
+//mobile
+@media screen and ( max-width:480px) {
+    header {
+        .header-content h1 {
+            font-size: 50px;
+            width: 100%;
+            margin: auto;
+            margin-top: 4rem !important;
+        }
+        .more { display: none;}
+    }
+
+    nav .nav .nav-right { display: none;}
+    .nav-mobile-button { display: block;}
+    .nav-mobile { 
+        width: 65%;
+        .dropdown::after { right: 2rem !important;}
+    }
+
+    main {
+        p { text-align: justify !important;}
+        margin-top: 5rem;
+        .section_components {
+            padding: 5rem 0;
+            .more { text-align: center !important;}
+            .thumb {
+                margin: 5rem 0 0;
+                .control-img {
+                    perspective: none;
+                    margin-bottom: 1rem;
+                    .image {
+                        left: 0;
+                        right: 0;
+                    }
+                }
+            }
+        }
+        .section_elements {
+            margin: 0;
+            padding: 2.5rem 0;
+            .control-img { display: none;}
+        }
+        .section_cards {
+            padding: 2.5rem 0;
+            .content { padding: 0 1rem;}
+            .control-cards { margin: 2.5rem 0;}
+        }
+        .section_content_areas {
+            margin: 0;
+            padding: 2.5rem 0;
+            .control-img {
+                left: 0;
+                top: 5rem;
+                .image-scroll {
+                    top: 30rem;
+                    left: 5rem;
+                }
+            }
+            .content { padding: 0 1rem;}
+        }
+        .section_contents {
+            padding-bottom: 2.5rem;
+            .detail {
+                padding: 2.5rem 0;
+                .content {
+                    padding: 0 1rem;
+                }
+            }
+            .menu {
+                .image1_scroll-1, .image1_scroll-2, .image1_scroll-3 { display: none;}
+                .control-img { margin-bottom: 1rem;}
+            }
+        }
+        .section_example_pages {
+            margin: 0;
+            padding: 2.5rem 0;
+            .detail {
+                padding: 0 0 2.5rem;
+                .content { padding: 0 1rem;}
+            }
+            .col-md-4 { margin-bottom: 3rem;}
+        }
+        .section_description {
+            padding: 2.5rem 0;
+            .content { padding: 0 1rem;}
+            .control-cards { margin-bottom: 2rem;}
+            .control-img { display: none;}
+        }
+        .section_custom_icons {
+            padding: 2.5rem 0;
+            .content { padding: 0 1rem;}
+            .col-md-3 { display: none;}
+        }
+        .section_image {
+            padding: 2.5rem;
+            .content { padding: 2.5rem 0 !important;}
+            p { margin-right: 0 !important;}
+            .control-img img { width: 100% !important;}
+        }
+        .section_slider {
+            padding: 2.5rem 0;
+            .col-lg-2 { display: none;}
+            .more { text-align: center !important;}
+        }
+        .section_label {
+            padding: 1rem 0;
+            .control-label { padding: 0 5rem;}
+        }
+    }
+
+    footer .footer {
+        ul li { margin-right: 5px;}
+        .info { 
+            text-align: center !important;
+            margin: 1rem 0;
+        }
+    }
+}
